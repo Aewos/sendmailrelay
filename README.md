@@ -1,2 +1,2 @@
 # sendmailrelay
-SMTP Relay using sendmail-like to send email
+SMTP Relay using sendmail-like tools to send email
