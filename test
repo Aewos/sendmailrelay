@@ -1,0 +1,9 @@
+#! /bin/sh
+
+ACCOUNT=local
+if [ $# -eq 1 ]; then
+	ACCOUNT=$1
+fi
+SENDMAIL=msmtp -a $ACCOUNT
+
+cat mailfile | $SENDMAIL -t
